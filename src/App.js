@@ -75,8 +75,8 @@ class App extends React.Component {
               ? value
               : formula
             : /([^.0-9]0|^0)$/.test(formula)
-            ? formula.slice(0, -1) + value
-            : formula + value,
+              ? formula.slice(0, -1) + value
+              : formula + value,
       });
     }
   };
@@ -287,7 +287,7 @@ class App extends React.Component {
             =
           </button>
         </div>
-        <p>Created by Aman</p>
+        <p>Created by Shreyas</p>
       </div>
     );
   }
